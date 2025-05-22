@@ -6,7 +6,7 @@ defineProps({
 <template>
     <article class="product-card">
         <h3>{{ product.name }}</h3>
-        <img :src="product.img" alt="Product Image" width="200px" />
+        <img :src="product.img" alt="Product Image" width="150px" />
         <h4>{{ product.price }} EUR</h4>
     </article>
 </template>
